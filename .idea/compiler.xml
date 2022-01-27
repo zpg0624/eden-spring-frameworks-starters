@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="edenspring-framework-redis-starter" />
+        <module name="edenspring-framework-common" />
+        <module name="edenspring-framework-mvc-starter" />
+        <module name="edenspring-framework-kafka-starter" />
+        <module name="edenspring-framework-jpa-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="edenspring-framework-common" target="1.8" />
+      <module name="edenspring-framework-common-starter" target="1.8" />
+      <module name="edenspring-framework-jpa-starter" target="1.8" />
+      <module name="edenspring-framework-kafka-starter" target="1.8" />
+      <module name="edenspring-framework-mvc-starter" target="1.8" />
+      <module name="edenspring-framework-parent" target="1.8" />
+      <module name="edenspring-framework-redis-starter" target="1.8" />
+      <module name="edenspring-framework-starters" target="1.8" />
+      <module name="memestudio-framework-bom" target="1.8" />
+      <module name="memestudio-framework-client-starter" target="1.8" />
+      <module name="memestudio-framework-doc-gateway-starter" target="1.8" />
+      <module name="memestudio-framework-security-auth-server-starter" target="1.8" />
+      <module name="memestudio-framework-security-context" target="1.8" />
+      <module name="memestudio-framework-security-starter" target="1.8" />
+      <module name="memestudio-framework-webflux-starter" target="1.8" />
+      <module name="memestudio-framework-xxljob-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
