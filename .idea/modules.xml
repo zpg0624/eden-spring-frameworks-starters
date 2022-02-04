@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-common/edenspring-framework-common.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-common/edenspring-framework-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-jpa-starter/edenspring-framework-jpa-starter.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-jpa-starter/edenspring-framework-jpa-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-kafka-starter/edenspring-framework-kafka-starter.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-kafka-starter/edenspring-framework-kafka-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-mvc-starter/edenspring-framework-mvc-starter.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-mvc-starter/edenspring-framework-mvc-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-redis-starter/edenspring-framework-redis-starter.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-redis-starter/edenspring-framework-redis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-common/edenspring-boot-common.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-common/edenspring-boot-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-jpa/edenspring-boot-starter-jpa.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-jpa/edenspring-boot-starter-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-kafka/edenspring-boot-starter-kafka.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-kafka/edenspring-boot-starter-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-mvc/edenspring-boot-starter-mvc.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-mvc/edenspring-boot-starter-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-redis/edenspring-boot-starter-redis.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-redis/edenspring-boot-starter-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-starters.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-starters.iml" />
     </modules>
   </component>

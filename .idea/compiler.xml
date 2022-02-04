@@ -7,21 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="edenspring-framework-redis-starter" />
-        <module name="edenspring-framework-common" />
-        <module name="edenspring-framework-mvc-starter" />
-        <module name="edenspring-framework-kafka-starter" />
-        <module name="edenspring-framework-jpa-starter" />
+        <module name="edenspring-boot-common" />
+        <module name="edenspring-boot-starter-kafka" />
+        <module name="edenspring-boot-starter-redis" />
+        <module name="edenspring-boot-starter-jpa" />
+        <module name="edenspring-boot-starter-mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="edenspring-framework-common" target="1.8" />
+      <module name="edenspring-boot-common" target="1.8" />
+      <module name="edenspring-boot-starter-jpa" target="1.8" />
+      <module name="edenspring-boot-starter-kafka" target="1.8" />
+      <module name="edenspring-boot-starter-mvc" target="1.8" />
+      <module name="edenspring-boot-starter-redis" target="1.8" />
       <module name="edenspring-framework-common-starter" target="1.8" />
-      <module name="edenspring-framework-jpa-starter" target="1.8" />
-      <module name="edenspring-framework-kafka-starter" target="1.8" />
-      <module name="edenspring-framework-mvc-starter" target="1.8" />
       <module name="edenspring-framework-parent" target="1.8" />
-      <module name="edenspring-framework-redis-starter" target="1.8" />
       <module name="edenspring-framework-starters" target="1.8" />
       <module name="memestudio-framework-bom" target="1.8" />
       <module name="memestudio-framework-client-starter" target="1.8" />
