@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>edenspring-framework-mvc-starter</module>
-        <module>edenspring-framework-redis-starter</module>
-        <module>edenspring-framework-kafka-starter</module>
-        <module>edenspring-framework-jpa-starter</module>
-        <module>edenspring-framework-common</module>
+        <module>edenspring-boot-starter-mvc</module>
+        <module>edenspring-boot-starter-redis</module>
+        <module>edenspring-boot-starter-kafka</module>
+        <module>edenspring-boot-starter-jpa</module>
+        <module>edenspring-boot-common</module>
     </modules>
     <groupId>com.eden.framework</groupId>
     <artifactId>edenspring-framework-starters</artifactId>
