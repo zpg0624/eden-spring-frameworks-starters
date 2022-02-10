@@ -12,7 +12,7 @@ import javax.persistence.EntityManager;
  * @since 2020/8/10
  */
 @Configuration
-public class JpaAutoConfiguration {
+public class CustomJpaAutoConfiguration {
 
     @ConditionalOnMissingBean
     @Bean

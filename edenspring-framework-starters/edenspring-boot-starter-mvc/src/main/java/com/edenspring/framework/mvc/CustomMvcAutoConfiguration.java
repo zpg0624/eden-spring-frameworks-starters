@@ -34,7 +34,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @AutoConfigureBefore(ErrorMvcAutoConfiguration.class)
 @Configuration
-public class MvcAutoConfiguration {
+public class CustomMvcAutoConfiguration {
 
     private final ServerProperties serverProperties;
 

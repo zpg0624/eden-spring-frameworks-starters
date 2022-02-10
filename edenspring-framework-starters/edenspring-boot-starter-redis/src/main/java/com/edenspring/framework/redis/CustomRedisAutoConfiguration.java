@@ -27,7 +27,7 @@ import static org.springframework.data.redis.serializer.RedisSerializationContex
 @EnableCaching
 @EnableConfigurationProperties(RedisProperties.class)
 @Configuration
-public class RedisAutoConfiguration {
+public class CustomRedisAutoConfiguration {
 
     @ConditionalOnMissingBean
     @Bean
