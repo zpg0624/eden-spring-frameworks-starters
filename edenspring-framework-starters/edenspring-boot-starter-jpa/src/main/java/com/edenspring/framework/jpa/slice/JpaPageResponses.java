@@ -1,5 +1,6 @@
-package com.edenspring.framework.common.slice;
+package com.edenspring.framework.jpa.slice;
 
+import com.edenspring.framework.common.slice.PageResponse;
 import com.querydsl.core.QueryResults;
 import lombok.experimental.UtilityClass;
 

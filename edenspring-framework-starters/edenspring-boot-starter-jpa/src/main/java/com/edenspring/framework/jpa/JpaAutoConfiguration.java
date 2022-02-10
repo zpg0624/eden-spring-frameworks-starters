@@ -1,4 +1,4 @@
-package com.edenspring.framework.common;
+package com.edenspring.framework.jpa;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
