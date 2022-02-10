@@ -2,6 +2,7 @@ package com.edenspring.framework.mvc;
 
 import brave.Tracer;
 import com.edenspring.framework.common.support.CommonRequestHeaderHolder;
+import com.edenspring.framework.mvc.controller.CommonErrorController;
 import com.edenspring.framework.mvc.ex.CommonErrorAttributes;
 import com.edenspring.framework.mvc.ex.CommonExceptionHandler;
 import com.fasterxml.jackson.databind.ObjectMapper;
