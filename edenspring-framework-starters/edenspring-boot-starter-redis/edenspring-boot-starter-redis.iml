@@ -57,6 +57,9 @@
     <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.51.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.51.Final" level="project" />
     <orderEntry type="library" name="Maven: com.github.alturkovic.distributed-lock:distributed-lock-redis:1.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.alturkovic.distributed-lock:distributed-lock-core:1.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.alturkovic.distributed-lock:distributed-lock-api:1.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.2" level="project" />

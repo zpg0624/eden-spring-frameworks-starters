@@ -9,6 +9,7 @@
         <module>edenspring-boot-starter-redis</module>
         <module>edenspring-boot-starter-kafka</module>
         <module>edenspring-boot-starter-jpa</module>
+        <module>edenspring-boot-starter-security</module>
         <module>edenspring-boot-common</module>
     </modules>
     <groupId>com.eden.framework</groupId>
@@ -184,22 +185,98 @@
     </dependencyManagement>
 
 
-
-
-
-
-
-
-
-
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-            </plugin>
-        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                                <goal>build-info</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <layers>
+                            <enabled>true</enabled>
+                        </layers>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>3.2.1</version>
+                    <configuration>
+                        <attach>true</attach>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
     </build>
 
+    <repositories>
+        <repository>
+            <id>rdc-snapshots</id>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <url>https://packages.aliyun.com/maven/repository/2019199-snapshot-ylHXQz/</url>
+        </repository>
+        <repository>
+            <id>rdc-releases</id>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <url>https://packages.aliyun.com/maven/repository/2019199-release-TmOtei/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>rdc-snapshots</id>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <url>https://packages.aliyun.com/maven/repository/2019199-snapshot-ylHXQz/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>rdc-releases</id>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <url>https://packages.aliyun.com/maven/repository/2019199-release-TmOtei/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://packages.aliyun.com/maven/repository/2019199-snapshot-ylHXQz/</url>
+        </snapshotRepository>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://packages.aliyun.com/maven/repository/2019199-release-TmOtei/</url>
+        </repository>
+    </distributionManagement>
 
 </project>

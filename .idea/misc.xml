@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/memestudio-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/edenspring-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/edenspring-framework-starters/pom.xml" />
+        <option value="$PROJECT_DIR$/edenspring-boot-starter-security/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

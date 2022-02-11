@@ -12,6 +12,7 @@
         <module name="edenspring-boot-starter-redis" />
         <module name="edenspring-boot-starter-jpa" />
         <module name="edenspring-boot-starter-mvc" />
+        <module name="edenspring-boot-starter-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="edenspring-boot-starter-kafka" target="1.8" />
       <module name="edenspring-boot-starter-mvc" target="1.8" />
       <module name="edenspring-boot-starter-redis" target="1.8" />
+      <module name="edenspring-boot-starter-security" target="8" />
       <module name="edenspring-framework-common-starter" target="1.8" />
       <module name="edenspring-framework-parent" target="1.8" />
       <module name="edenspring-framework-starters" target="1.8" />

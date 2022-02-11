@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-kafka/edenspring-boot-starter-kafka.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-kafka/edenspring-boot-starter-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-mvc/edenspring-boot-starter-mvc.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-mvc/edenspring-boot-starter-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-redis/edenspring-boot-starter-redis.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-redis/edenspring-boot-starter-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-security/edenspring-boot-starter-security.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-boot-starter-security/edenspring-boot-starter-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-starters.iml" filepath="$PROJECT_DIR$/edenspring-framework-starters/edenspring-framework-starters.iml" />
     </modules>
   </component>
