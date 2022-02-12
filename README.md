@@ -1,2 +1,2 @@
 # eden-spring-frameworks-starters
-基于springboot starter思想构建的脚手架
+基于spring-boot-starter思想构建的基础设施启动器
