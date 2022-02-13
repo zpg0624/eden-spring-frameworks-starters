@@ -18,8 +18,6 @@ import java.util.List;
 @Data
 public class PageResponse<O> implements Serializable {
 
-    private static final long serialVersionUID = -1040008233987199281L;
-
     private List<O> result;
 
     private long total;

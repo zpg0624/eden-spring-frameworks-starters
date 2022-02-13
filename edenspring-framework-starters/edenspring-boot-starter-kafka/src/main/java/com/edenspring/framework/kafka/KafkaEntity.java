@@ -17,7 +17,6 @@ import java.io.Serializable;
 @AllArgsConstructor(staticName = "of")
 public class KafkaEntity implements Serializable {
 
-    private static final long serialVersionUID = 1076278890855115411L;
 
     private CurrentSpan currentSpan;
 
@@ -27,8 +26,6 @@ public class KafkaEntity implements Serializable {
     @AllArgsConstructor(staticName = "of")
     @Data
     public static class CurrentSpan implements Serializable {
-
-        private static final long serialVersionUID = -6014793661812486814L;
 
         private long spanId;
 

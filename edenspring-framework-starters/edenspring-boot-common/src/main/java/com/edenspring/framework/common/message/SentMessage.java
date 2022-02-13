@@ -16,8 +16,6 @@ import java.io.Serializable;
 @RequiredArgsConstructor(staticName = "of")
 public class SentMessage implements Serializable {
 
-    private static final long serialVersionUID = -8719018333179331384L;
-
     /**
      * 接受者
      */

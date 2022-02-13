@@ -17,7 +17,6 @@ import java.util.List;
 @Data
 public class ScrollingResponse<O> implements Serializable {
 
-    private static final long serialVersionUID = 2915519051260135202L;
 
     private List<O> result;
 

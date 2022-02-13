@@ -77,7 +77,7 @@
         <dependencies>
             <dependency>
                 <groupId>com.eden.framework</groupId>
-                <artifactId>edenspring-framework-common</artifactId>
+                <artifactId>edenspring-boot-common</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>

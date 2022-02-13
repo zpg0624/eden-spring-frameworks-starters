@@ -15,7 +15,6 @@ import java.io.Serializable;
 @AllArgsConstructor
 public abstract class ExcelDetail<DETAILS> implements Serializable {
 
-    private static final long serialVersionUID = -7855561213528484941L;
     /**
      * 文件名称
      */

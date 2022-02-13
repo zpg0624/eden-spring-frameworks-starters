@@ -65,7 +65,7 @@
     </dependency>
     <dependency>
       <groupId>com.eden.framework</groupId>
-      <artifactId>edenspring-framework-common</artifactId>
+      <artifactId>edenspring-boot-common</artifactId>
     </dependency>
 
   </dependencies>

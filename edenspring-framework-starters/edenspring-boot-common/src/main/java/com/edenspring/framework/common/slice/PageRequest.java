@@ -17,8 +17,6 @@ import java.io.Serializable;
 @Valid
 public class PageRequest implements Serializable {
 
-    private static final long serialVersionUID = 1188023969742232982L;
-
     @Min(1)
     protected long pageNo = 1;
 

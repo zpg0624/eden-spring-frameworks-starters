@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>edenspring-framework-jpa-starter</artifactId>
+    <artifactId>edenspring-boot-starter-jpa</artifactId>
 
     <dependencies>
         <dependency>
@@ -48,7 +48,7 @@
         </dependency>
         <dependency>
             <groupId>com.eden.framework</groupId>
-            <artifactId>edenspring-framework-common</artifactId>
+            <artifactId>edenspring-boot-common</artifactId>
         </dependency>
 
     </dependencies>

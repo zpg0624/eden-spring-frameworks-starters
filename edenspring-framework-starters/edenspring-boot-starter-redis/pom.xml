@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>edenspring-framework-redis-starter</artifactId>
+    <artifactId>edenspring-boot-starter-redis</artifactId>
 
     <dependencies>
         <dependency>

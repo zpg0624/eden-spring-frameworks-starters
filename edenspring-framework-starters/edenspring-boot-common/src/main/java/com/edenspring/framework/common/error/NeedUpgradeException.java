@@ -9,8 +9,6 @@ import lombok.Getter;
 @Getter
 public class NeedUpgradeException extends RuntimeException implements ErrorCode {
 
-    private static final long serialVersionUID = -2041730267738456724L;
-
     private final int code;
 
     private static final int page = -100_00_007;
